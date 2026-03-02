@@ -23,7 +23,7 @@ header {
     aspect-ratio: 1940 / 461;
     max-width: 1940px;
     width: 94%;
-    background: url(Images/Header_small3.png);
+    background: url(Images/Header_Small3.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin: 3% 3%;
@@ -186,4 +186,5 @@ footer {
     text-align: center;
 
 }
+
 
