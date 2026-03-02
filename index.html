@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bankrupt Frostbice Official Website - Home</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <meta charset="UTF-8">
+  <meta name="author" content="Akeli">
+  <meta name="description" content="Bankrupt Frostbite Official Website">
+  <!-- lisää meta-elementtejä -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<header></header>
+
+<div>
+<nav>
+  <a href="index.html">
+    <span class="selectedtab">
+    HOME</span>
+  </a>   
+  <a href="band.html">
+    BAND
+  </a>
+  <a href="bio.html">
+    BIO
+  </a> 
+  <a href="music.html">
+    MUSIC
+  </a>  
+  <a href="merch.html">
+    MERCH
+  </a>   
+  <a href="gigs.html">
+    GIGS  
+  </a>
+</nav>
+</div>
+
+<!--Intro-->
+<div>   
+<p class="intro">Welcome to Bankrupt Frostbite's official website.<br><br>
+  Bankrupt Official is a peculiar alternative metal amongst
+other genres band from the bleak
+hoodz ov Havukoski, Vantaa.</p>
+</div>
+
+<!--Latest news-->
+<div>
+    <h1>Latest news:</h1>
+<details>
+  <summary>
+  <h2>01.01.2026 - New gigs</h2>
+      <span class="showhide">SHOW / HIDE</span>
+    </summary>
+    <p class="leftalign">Straw's shoulder is mending nicely. We are going to continue not practising shortly and will soon be ready to publicly humiliate ourselves on stage.</p>
+    <p class="leftalign">New gigs added to:</p>
+      <ul>                             
+      <li>Harmony Bar @ 18.05.2026</li>
+      <li>Ravintola Pormestari @ 20.05.2026</li>
+      <li>Ravintola Pingviini Night Club @ 21.05.2026</li>
+      <li>Tikkurila Vonnela Night Club @ 10.06.2026.</li>
+      </ul>
+      <img src="Images/Vonnela.png" Alt="Desolated Onnela night club at Tikkurila, Vantaa">
+    </details>
+
+    <details>
+    <summary><h2>01.01.2026 - All gigs cancelled</h2>
+      <span class="showhide">SHOW / HIDE</span>
+    </summary>
+    <p class="leftalign">All gigs have been cancelled due to Straw breaking his shoulder at a bowling alley.
+      More info to come regarding rescheduling of gigs in the near future. Check the Gigs tab
+      for updated info on gig schedules.</p>
+    <p class="leftalign">At least we got a nice pic about the incident:</p>
+      <img src="Images/Straw_bowling.png" Alt="Metalhead with Jigsaw pig mask slipping on a bowling alley">
+    </details>
+
+        <details>
+    <summary><h2>06.12.2025 - In the studio</h2>
+      <span class="showhide">SHOW / HIDE</span>
+    </summary>
+    <p class="leftalign">Bankrupt Frostbite have been spending a lot of time in the studio making new material.
+      It is yet to be seen what is coming, but the material seems to be quite interesting.
+    Lots of different strange objects have been tried and the songs will most likely
+    feature sounds of common household items yet again.</p>
+  <img src="Images/Studio_dairy.png" Alt="Household items on recording studio table">
+      <p>More info to follow.</p>
+    </details>
+    </div>
+
+<!--Villapaitapeli-->
+<div class="villapaitapeli">
+    <form>
+
+      <h3>Akelin villapaitapeli</h3>
+
+			<label for="valinta">Pue Akelille villapaita:<br><br></label>
+
+<select name="valinnat" id="valinta">
+  <option value=0>--Valitse--</option>
+  <option value=1>KYLLÄ</option>
+  <option value=2>EI</option>
+  </select>
+	</form>
+
+
+
+  <span class="koomistus" id="vastaus"></span><br>
+			<input type="button" id="painike" value="Execute" onclick="kerro()">
+
+			<script>
+		function kerro() {
+
+			let decision = Number(document.getElementById("valinta").value);
+			let teksti = "";
+			
+			if (decision == 1) {
+				teksti = "<br>VOITIT PELIN!<br>"
+
+				console.log(decision)
+			}
+			else {
+				teksti = '<br><span class="soldout";>HÄVISIT PELIN, SENKIN KAKKAPYLLY!</span><br>';
+			}
+
+			document.getElementById("vastaus").innerHTML = teksti
+
+		}
+	</script>
+  </div>
+ 
+
+    <footer>
+&copy; Bankrupt Frosbite 2026
+</footer>
+
+</body>
+
+</html>
