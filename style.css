@@ -12,7 +12,7 @@
 
 body {
     margin: auto;
-    background: url(Body.png);
+    background: url(Images/Body.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -184,4 +184,5 @@ footer {
     color: var(--footerfont);
     margin: 100px;
     text-align: center;
+
 }
