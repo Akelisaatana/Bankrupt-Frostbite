@@ -3,7 +3,7 @@
     --navcolor: rgba(199, 17, 17, 0.95);
     --selectedtab: white;
     --backgroundcolor:  rgba(0, 0, 0, 0.2);
-    --navbackground: rgba(0, 0, 0, 0.2);
+    --navbackground: none;
     --footerfont:  rgb(150, 144, 144);
     --showhide: rgb(11, 218, 149);
     --koomistus: yellow;
@@ -190,6 +190,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
