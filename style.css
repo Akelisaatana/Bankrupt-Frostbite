@@ -76,6 +76,16 @@ h2 {
 }
 
 
+.gigs {
+        color: var(--fontcolor);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.3em;
+    margin: 30px;
+    text-align: center;
+}    
+
+
 h3 {
     color: var(--fontcolor);
     font-size: 1.6em;
@@ -213,6 +223,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
