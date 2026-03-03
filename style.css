@@ -102,6 +102,10 @@ div {
     padding: 20px 20px;
 }
 
+.video {
+    margin: auto auto;
+}
+
 
 @media (max-width: 1200px) {
     .video {
@@ -209,6 +213,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
