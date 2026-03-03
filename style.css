@@ -3,7 +3,6 @@
     --navcolor: rgba(199, 17, 17, 0.95);
     --selectedtab: white;
     --backgroundcolor:  rgba(0, 0, 0, 0.2);
-    --navbackground: none;
     --footerfont:  rgb(150, 144, 144);
     --showhide: rgb(11, 218, 149);
     --koomistus: yellow;
@@ -30,8 +29,7 @@ header {
 }
 
 
-nav a{
-    background-color: var(--navbackground);
+nav a {
     text-decoration: none;
     color: var(--navcolor);
     font-family: "Rockwell Extra Bold";
@@ -152,7 +150,7 @@ p {
 .soldout {
     color: var(--soldout);
     font-weight: 900;
-    font-family: "Comic Sans MS", "Comic Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", system-ui, "Segoe UI", Arial, sans-serif;
 }
 
 
@@ -199,6 +197,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
