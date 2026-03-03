@@ -89,6 +89,8 @@ div {
     .video {
         width: 90%;
     }
+    nav a {
+        margin: 1% auto;
 }
 
 
@@ -187,6 +189,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
