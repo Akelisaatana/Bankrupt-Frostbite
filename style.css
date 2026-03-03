@@ -38,7 +38,7 @@ nav a{
     font-weight: 900;
     font-size: 2.5em;
     padding: 1%;
-    margin: 1.5%;
+    margin: 1%;
 }
 
 
@@ -90,7 +90,7 @@ div {
         width: 90%;
     }
     nav a {
-        margin: 4% auto;
+        margin: 2% auto;
         font-size: 2em;
 }
 
@@ -190,6 +190,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
