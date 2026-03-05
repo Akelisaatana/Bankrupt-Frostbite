@@ -25,6 +25,7 @@ header {
     background: url(Images/Header_Small3.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     margin: 3% auto;
 }
 
@@ -224,6 +225,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
