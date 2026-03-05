@@ -113,7 +113,8 @@ div {
 
 .villapaitapeli {
     margin: 100px auto;
-    padding: 20px 20px;
+    padding: 0 0 50px 0;
+    max-width: 600px;
 }
 
 
@@ -242,6 +243,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
