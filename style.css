@@ -30,6 +30,15 @@ header {
 }
 
 
+@media (max-width: 600px) {
+    header {
+        width: 100%;        /* vie koko näytön */
+        aspect-ratio: auto; /* antaa kuvan asettua luonnollisemmin */
+        background-size: cover; /* EI leikkaa, koska pienellä näytöllä se skaalautuu pienemmäksi */
+    }
+}
+
+
 nav a {
     text-decoration: none;
     color: var(--navcolor);
@@ -225,6 +234,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
