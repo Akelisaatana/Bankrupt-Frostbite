@@ -32,9 +32,11 @@ header {
 
 @media (max-width: 600px) {
     header {
-        width: 100%;        /* vie koko näytön */
-        aspect-ratio: auto; /* antaa kuvan asettua luonnollisemmin */
-        background-size: cover; /* EI leikkaa, koska pienellä näytöllä se skaalautuu pienemmäksi */
+        width: 100%;
+        height: 180px;      /* voit säätää tätä */
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -234,6 +236,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
