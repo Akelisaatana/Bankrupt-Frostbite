@@ -177,6 +177,7 @@ p {
 
 .leftalign {
     text-align: left;
+    max-width: 800px;
 }
 
 
@@ -239,6 +240,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
