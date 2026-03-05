@@ -152,6 +152,7 @@ p {
     text-align: center;
     align-items: center;
     margin: 50px auto;
+    max-width: 1200px;
 }
 
 @media (max-width: 600px) {
@@ -237,6 +238,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
