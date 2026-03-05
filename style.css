@@ -110,7 +110,7 @@ div {
     font-weight: normal;
     background-color: var(--backgroundcolor);
     color: var(--fontcolor);
-    margin: auto 5%;
+    margin: auto auto;
     text-align: center;
     padding: 10px;
 
@@ -154,7 +154,7 @@ p {
     color: var(--fontcolor);
     text-align: center;
     align-items: center;
-    margin: 50px 5%;
+    margin: 50px auto;
 }
 
 
@@ -234,6 +234,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
