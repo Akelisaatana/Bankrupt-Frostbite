@@ -105,6 +105,8 @@ hoodz ov Havukoski, Vantaa.</p>
   <option value=0>--Valitse--</option>
   <option value=1>KYLLÄ</option>
   <option value=2>EI</option>
+	<option value=3>KAMPELA</option>
+	<option value=4>ORDER 66</option>
   </select>
 	</form>
 
@@ -119,7 +121,7 @@ hoodz ov Havukoski, Vantaa.</p>
 			let decision = Number(document.getElementById("valinta").value);
 			let teksti = "";
 			
-			if (decision == 1) {
+			if (decision == 1 || decision == 4) {
 				teksti = "<br>VOITIT PELIN!<br>"
 
 				console.log(decision)
@@ -144,6 +146,7 @@ hoodz ov Havukoski, Vantaa.</p>
 </body>
 
 </html>
+
 
 
 
