@@ -139,6 +139,7 @@ div {
 
 p {
     width: 90%;
+    max-width: 800px;
     color: var(--fontcolor);
     font-size: 1.2em;
     font-weight: normal;
@@ -243,6 +244,7 @@ footer {
     text-align: center;
 
 }
+
 
 
 
